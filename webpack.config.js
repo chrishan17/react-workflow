@@ -9,7 +9,7 @@ module.exports = {
       'webpack/hot/only-dev-server',
       path.join(__dirname, 'app/main.js')
     ],
-    vendors: ['react', 'react-bootstrap']
+    vendors: ['react']
   },
   output: {
     path: path.join(__dirname, 'build'),

@@ -12,7 +12,6 @@
   * Minimized CSS and JavaScript
 * Separated webpack config file for dev and prod
 * Flux files structure
-* React Bootstrap
 * Use `html-webpack-plugin`, https://github.com/ampedandwired/html-webpack-plugin, generate the index.html automatically
 
 ## Directory Layout
@@ -28,7 +27,8 @@
 │   ├── /constants/             # Constants (action types etc.)
 │   ├── /dispatcher/            # Flux dispatcher
 │   ├── /stores/                # Stores contain the application state and logic
-│   └── /main.js                # Client-side startup script
+│   ├── /main.js                # Client-side startup script
+│   └── /template.html          # Template html
 │── package.json                # The list of 3rd party libraries and utilities
 │── webpack.config.js           # Webpack configuration for bundling and optimization
 └── webpack.prod.config.js      # Webpack configuration for production
@@ -48,4 +48,3 @@
 1. React-webpack-cookbook, https://christianalfoni.github.io/react-webpack-cookbook/index.html
 2. html-webpack-plugin, https://github.com/ampedandwired/html-webpack-plugin
 3. React-hot-loader, http://gaearon.github.io/react-hot-loader/getstarted/
-4. React-bootstrap Getting Started, http://react-bootstrap.github.io/getting-started.html
